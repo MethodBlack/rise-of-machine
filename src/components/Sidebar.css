@@ -62,7 +62,7 @@
     display: flex;
     gap: var(--spacing-01);
     padding: var(--spacing-01);
-    border: 0.5px solid var(--border-muted);
+    border: 1.5px solid var(--border-muted);
     border-radius: var(--spacing-03);
     background-color: var(--background);
 }
@@ -179,7 +179,6 @@
     font-family: var(--body-copy);
     font-size: var(--desktop-body-sm);
     line-height: var(--lh-desktop-body-sm);
-    cursor: var(--c-pointer);
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
 }
@@ -242,7 +241,7 @@
     color: var(--content-secondary-alt);
     font-family: var(--monospace);
     font-size: var(--desktop-caption);
-    line-height: var(--lh-desktop-caption);
+    line-height: var(--lh-desktop-body-sm);
 }
 
 .sidebar-legal a {

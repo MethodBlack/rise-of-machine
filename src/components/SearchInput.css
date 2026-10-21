@@ -109,7 +109,6 @@
     border: none;
     background: none;
     color: var(--content-secondary);
-    cursor: var(--c-pointer);
     border-radius: var(--spacing-00);
 }
 

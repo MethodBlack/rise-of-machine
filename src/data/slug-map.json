@@ -1205,6 +1205,9 @@
   "study-fetch": [
     "education"
   ],
+  "summarizai": [
+    "education"
+  ],
   "teachany": [
     "education"
   ],
@@ -1257,6 +1260,9 @@
     "enterprise"
   ],
   "credal-ai": [
+    "enterprise"
+  ],
+  "deedspring": [
     "enterprise"
   ],
   "dropshiphunt": [
@@ -2985,6 +2991,9 @@
     "video"
   ],
   "pika": [
+    "video"
+  ],
+  "pitchboomio": [
     "video"
   ],
   "pixverse": [
