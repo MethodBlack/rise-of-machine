@@ -8,12 +8,12 @@
   "slug": "tensorblock-forge",
   "related": [
     "teachable-machine",
-    "buildrs",
     "create-apidev",
     "x-note-writer-api",
     "poe-api",
     "agent-qa",
     "sqlmate",
-    "markitdown"
+    "markitdown",
+    "not-human-search"
   ]
 }

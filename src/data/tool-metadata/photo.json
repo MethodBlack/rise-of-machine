@@ -9,11 +9,11 @@
   "related": [
     "flux-ai-online",
     "bulk-image-generator",
-    "fotol-image-generator",
     "image-optimizer",
     "photify",
     "photoleap",
     "cozaiphoto",
-    "food-generator"
+    "food-generator",
+    "headshot-photo"
   ]
 }

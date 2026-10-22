@@ -7,13 +7,13 @@
   "date-added": "2026-01-22",
   "slug": "sceneyouart",
   "related": [
-    "random-image-generator",
     "imggen-ai",
     "image-to-image",
     "graficai",
     "bulk-image-generator",
-    "fotol-image-generator",
     "image-optimizer",
-    "ezmaker-ai"
+    "ezmaker-ai",
+    "ez-img-editor",
+    "bulkgen-ai"
   ]
 }

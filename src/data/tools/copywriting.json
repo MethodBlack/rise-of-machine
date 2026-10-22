@@ -400,14 +400,6 @@
     "slug": "rightblogger"
   },
   {
-    "title": "Roast My Landing Page",
-    "body": "Landing page roast.",
-    "tag": "From $9.99/roast",
-    "url": "https://roastmylandingpage.io/?ref=riseofmachine.com",
-    "date-added": "2024-12-13",
-    "slug": "roast-my-landing-page"
-  },
-  {
     "title": "Ryter Pro",
     "body": "Makes AI text sound human",
     "tag": "Freemium",
@@ -422,6 +414,14 @@
     "url": "https://rytr.me/?ref=riseofmachine.com",
     "date-added": "2023-12-24",
     "slug": "rytr"
+  },
+  {
+    "title": "SEOSorted.ai",
+    "body": "Automates SEO research and content publishing.",
+    "tag": "Freemium",
+    "url": "https://seosorted.ai/?ref=riseofmachine.com",
+    "date-added": "2026-10-22",
+    "slug": "seosortedai"
   },
   {
     "title": "sickleaveemail",

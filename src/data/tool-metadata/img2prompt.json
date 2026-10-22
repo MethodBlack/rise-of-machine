@@ -9,11 +9,11 @@
   "related": [
     "prompt-generator",
     "gpt-prompts",
-    "dallelist",
     "eye-for-ai",
     "prompt-library",
     "gemini-photo-prompt",
     "shottoprompt",
-    "webprompts-dev"
+    "webprompts-dev",
+    "xprompts"
   ]
 }

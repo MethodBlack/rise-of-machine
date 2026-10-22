@@ -7,13 +7,13 @@
   "date-added": "2023-12-15",
   "slug": "chatgpt-writer",
   "related": [
-    "wiseone",
     "mnemosphere",
     "shortcutai",
     "semantic-email",
     "runbear",
     "neverapply",
     "placecall",
-    "meteor-ai"
+    "meteor-ai",
+    "screenpipe"
   ]
 }

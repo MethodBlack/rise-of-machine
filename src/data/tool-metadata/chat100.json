@@ -8,12 +8,12 @@
   "slug": "chat100",
   "related": [
     "gemini",
-    "muse-spark-ai",
     "deepseekv4dev",
     "grok",
     "microsoft-copilot",
     "qwen",
     "ai-agents-live",
-    "ai-agents-list"
+    "ai-agents-list",
+    "gpt4o"
   ]
 }

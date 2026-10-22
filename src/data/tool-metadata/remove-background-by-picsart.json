@@ -9,11 +9,11 @@
   "related": [
     "photoroom",
     "blur-background",
-    "imggood",
     "picsart",
     "pixelfox-objects-remover",
     "magic-eraser",
     "ai-magic-eraser",
-    "background"
+    "background",
+    "piximagen"
   ]
 }

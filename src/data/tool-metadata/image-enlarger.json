@@ -9,11 +9,11 @@
   "related": [
     "erase-bg",
     "bulk-image-generator",
-    "fotol-image-generator",
     "image-optimizer",
     "bg-eraser",
     "lets-enhance",
     "gemini-flash-image",
-    "realistic-image-generator"
+    "realistic-image-generator",
+    "image-changer-app"
   ]
 }

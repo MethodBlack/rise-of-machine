@@ -11,9 +11,9 @@
     "xprompts",
     "banana-prompts",
     "prompt-generator",
-    "midlearning",
     "srefhunter",
     "goodprompts",
-    "dallelist"
+    "webprompts-dev",
+    "gemini-photo-prompt"
   ]
 }

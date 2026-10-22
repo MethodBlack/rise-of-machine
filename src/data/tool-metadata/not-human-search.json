@@ -7,13 +7,13 @@
   "date-added": "2026-04-17",
   "slug": "not-human-search",
   "related": [
-    "cursor-mcp",
     "agent-qa",
     "cosine",
     "teachable-machine",
     "sqlmate",
     "markitdown",
     "nat-checker",
-    "buildrs"
+    "tensorblock-forge",
+    "create-apidev"
   ]
 }

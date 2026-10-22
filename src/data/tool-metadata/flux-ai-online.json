@@ -8,12 +8,12 @@
   "slug": "flux-ai-online",
   "related": [
     "flux-ai",
-    "fotol-image-generator",
     "gemini-flash-image",
     "preset-generator",
     "image-changer-app",
     "enhancedating",
     "image-to-image",
-    "imagine2"
+    "imagine2",
+    "fromimage-ai"
   ]
 }

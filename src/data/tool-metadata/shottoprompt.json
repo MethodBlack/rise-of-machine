@@ -10,10 +10,10 @@
     "prompt-generator",
     "goodprompts",
     "xprompts",
-    "midlearning",
     "banana-prompts",
     "diligence-check",
     "srefhunter",
-    "dallelist"
+    "promptvibe",
+    "gpt-prompts"
   ]
 }

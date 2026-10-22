@@ -12,8 +12,8 @@
     "sqlmate",
     "markitdown",
     "nat-checker",
-    "cursor-mcp",
-    "buildrs",
-    "tensorblock-forge"
+    "tensorblock-forge",
+    "create-apidev",
+    "x-note-writer-api"
   ]
 }

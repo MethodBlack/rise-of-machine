@@ -9,11 +9,11 @@
   "related": [
     "flux-ai-online",
     "image-changer-app",
-    "fotol-image-generator",
     "gemini-flash-image",
     "preset-generator",
     "befunky",
-    "imggood",
-    "enhancedating"
+    "enhancedating",
+    "image-to-image",
+    "imagine2"
   ]
 }

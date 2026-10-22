@@ -8,12 +8,12 @@
   "slug": "image-optimizer",
   "related": [
     "bulk-image-generator",
-    "fotol-image-generator",
     "gemini-flash-image",
     "image-enlarger",
     "realistic-image-generator",
     "image-changer-app",
     "photo",
-    "flux-ai-online"
+    "flux-ai-online",
+    "imggen-ai"
   ]
 }

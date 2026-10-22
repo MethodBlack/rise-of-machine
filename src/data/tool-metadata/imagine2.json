@@ -11,9 +11,9 @@
     "image-text-editor",
     "muapi",
     "graficai",
-    "fotol-image-generator",
-    "promptwall",
     "bulkgen-ai",
-    "magnific"
+    "magnific",
+    "ai-image-combiner",
+    "blur-background"
   ]
 }

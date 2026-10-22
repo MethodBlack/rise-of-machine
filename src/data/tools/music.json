@@ -48,14 +48,6 @@
     "slug": "jen"
   },
   {
-    "title": "Lyria3",
-    "body": "AI high-fidelity music creator.",
-    "tag": "Freemium",
-    "url": "https://lyria3.net/?ref=riseofmachine.com",
-    "date-added": "2026-03-05",
-    "slug": "lyria3"
-  },
-  {
     "title": "Lyrics to Song",
     "body": "Create songs from your lyrics using AI.",
     "tag": "Freemium",
@@ -112,14 +104,6 @@
     "slug": "music-generator"
   },
   {
-    "title": "Orange Music",
-    "body": "Turn prompts into songs.",
-    "tag": "Freemium",
-    "url": "https://oaimusicgen.com?ref=riseofmachine.com",
-    "date-added": "2026-01-04",
-    "slug": "orange-music"
-  },
-  {
     "title": "Raplyrics",
     "body": "Music creation.",
     "tag": "Free",
@@ -174,14 +158,6 @@
     "url": "https://soundry.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-26",
     "slug": "soundry"
-  },
-  {
-    "title": "Sprunki",
-    "body": "Create music with unique characters and soundscapes.",
-    "tag": "Free",
-    "url": "https://sprunki.io?ref=riseofmachine.com",
-    "date-added": "2025-06-03",
-    "slug": "sprunki"
   },
   {
     "title": "Stable Audio",

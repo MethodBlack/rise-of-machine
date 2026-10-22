@@ -11,9 +11,9 @@
     "sqlmate",
     "markitdown",
     "not-human-search",
-    "cursor-mcp",
-    "buildrs",
     "tensorblock-forge",
-    "create-apidev"
+    "create-apidev",
+    "x-note-writer-api",
+    "fitten-code"
   ]
 }

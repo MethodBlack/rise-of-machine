@@ -11,9 +11,9 @@
     "sqlmate",
     "not-human-search",
     "nat-checker",
-    "cursor-mcp",
-    "buildrs",
     "tensorblock-forge",
-    "create-apidev"
+    "create-apidev",
+    "x-note-writer-api",
+    "fitten-code"
   ]
 }
