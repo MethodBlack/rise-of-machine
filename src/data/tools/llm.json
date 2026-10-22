@@ -216,28 +216,12 @@
     "slug": "modal"
   },
   {
-    "title": "Muse Spark AI",
-    "body": "Multimodal reasoning AI that thinks deeper.",
-    "tag": "Free",
-    "url": "https://musespark-ai.org/?ref=riseofmachine.com",
-    "date-added": "2026-04-12",
-    "slug": "muse-spark-ai"
-  },
-  {
     "title": "Numbers Station",
     "body": "Data analytics copilot.",
     "tag": "Freemium",
     "url": "https://www.numbersstation.ai/?ref=riseofmachine.com",
     "date-added": "2023-12-24",
     "slug": "numbers-station"
-  },
-  {
-    "title": "Offlinechat",
-    "body": "Offlinechat",
-    "tag": "Freemium",
-    "url": "https://offlinechat.chat?ref=riseofmachine.com",
-    "date-added": "2025-06-03",
-    "slug": "offlinechat"
   },
   {
     "title": "OpenRouter",

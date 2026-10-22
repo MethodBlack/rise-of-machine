@@ -77,9 +77,6 @@
   "fiddlart": [
     "art"
   ],
-  "fileai": [
-    "art"
-  ],
   "flux-context-ai": [
     "art"
   ],
@@ -206,9 +203,6 @@
   "nightcafe-creator": [
     "art"
   ],
-  "oc-maker": [
-    "art"
-  ],
   "oc-maker-1": [
     "art"
   ],
@@ -270,9 +264,6 @@
     "art"
   ],
   "winter-comics": [
-    "art"
-  ],
-  "wplace-website": [
     "art"
   ],
   "yix": [
@@ -632,13 +623,13 @@
   "rightblogger": [
     "copywriting"
   ],
-  "roast-my-landing-page": [
-    "copywriting"
-  ],
   "ryter-pro": [
     "copywriting"
   ],
   "rytr": [
+    "copywriting"
+  ],
+  "seosortedai": [
     "copywriting"
   ],
   "sickleaveemail": [
@@ -704,16 +695,10 @@
   "cheers-geo": [
     "design"
   ],
-  "csm": [
-    "design"
-  ],
   "designsai": [
     "design"
   ],
   "designstripe": [
-    "design"
-  ],
-  "dora": [
     "design"
   ],
   "durable": [
@@ -746,9 +731,6 @@
   "illostration-ai": [
     "design"
   ],
-  "illustrationapp": [
-    "design"
-  ],
   "illustroke": [
     "design"
   ],
@@ -765,9 +747,6 @@
     "design"
   ],
   "landscapioai": [
-    "design"
-  ],
-  "logo-galleria": [
     "design"
   ],
   "lovspark-ai": [
@@ -902,9 +881,6 @@
   "blaze-sql": [
     "developer"
   ],
-  "buildrs": [
-    "developer"
-  ],
   "buildship": [
     "developer"
   ],
@@ -936,9 +912,6 @@
     "developer"
   ],
   "curlshot": [
-    "developer"
-  ],
-  "cursor-mcp": [
     "developer"
   ],
   "director": [
@@ -987,9 +960,6 @@
     "developer"
   ],
   "marscode": [
-    "developer"
-  ],
-  "marvin": [
     "developer"
   ],
   "n8n-workflow-builder": [
@@ -1091,9 +1061,6 @@
   "stringcom": [
     "developer"
   ],
-  "sweep": [
-    "developer"
-  ],
   "synexa": [
     "developer"
   ],
@@ -1166,9 +1133,6 @@
   "examful-ai": [
     "education"
   ],
-  "fourgpa": [
-    "education"
-  ],
   "grader-good": [
     "education"
   ],
@@ -1224,9 +1188,6 @@
     "enterprise"
   ],
   "amazely": [
-    "enterprise"
-  ],
-  "arches": [
     "enterprise"
   ],
   "autoblocks": [
@@ -1436,9 +1397,6 @@
   "higgsfield": [
     "fashion"
   ],
-  "huhu": [
-    "fashion"
-  ],
   "looksky": [
     "fashion"
   ],
@@ -1506,9 +1464,6 @@
     "health"
   ],
   "rex": [
-    "health"
-  ],
-  "tallow-balm": [
     "health"
   ],
   "your-avocado": [
@@ -1595,13 +1550,7 @@
   "modal": [
     "llm"
   ],
-  "muse-spark-ai": [
-    "llm"
-  ],
   "numbers-station": [
-    "llm"
-  ],
-  "offlinechat": [
     "llm"
   ],
   "openrouter": [
@@ -1679,9 +1628,6 @@
   "jen": [
     "music"
   ],
-  "lyria3": [
-    "music"
-  ],
   "lyrics-to-song": [
     "music"
   ],
@@ -1703,9 +1649,6 @@
   "music-generator": [
     "music"
   ],
-  "orange-music": [
-    "music"
-  ],
   "raplyrics": [
     "music"
   ],
@@ -1725,9 +1668,6 @@
     "music"
   ],
   "soundry": [
-    "music"
-  ],
-  "sprunki": [
     "music"
   ],
   "stable-audio": [
@@ -1803,9 +1743,6 @@
     "nocode"
   ],
   "musikso": [
-    "nocode"
-  ],
-  "olive": [
     "nocode"
   ],
   "pageai": [
@@ -1937,9 +1874,6 @@
   "foosh": [
     "photos"
   ],
-  "fotol-image-generator": [
-    "photos"
-  ],
   "freemaker-ai": [
     "photos"
   ],
@@ -1997,9 +1931,6 @@
   "imggen-ai": [
     "photos"
   ],
-  "imggood": [
-    "photos"
-  ],
   "interior-design-planner": [
     "photos"
   ],
@@ -2019,9 +1950,6 @@
     "photos"
   ],
   "mimicphoto": [
-    "photos"
-  ],
-  "mirror-ai": [
     "photos"
   ],
   "muapi": [
@@ -2081,16 +2009,10 @@
   "profile-picture-ai": [
     "photos"
   ],
-  "promptwall": [
-    "photos"
-  ],
   "ps-nano-banana": [
     "photos"
   ],
   "quitarfondo": [
-    "photos"
-  ],
-  "random-image-generator": [
     "photos"
   ],
   "realistic-image-generator": [
@@ -2109,9 +2031,6 @@
     "photos"
   ],
   "sellerpic": [
-    "photos"
-  ],
-  "silhouette-generator": [
     "photos"
   ],
   "topaz-labs": [
@@ -2178,9 +2097,6 @@
     "productivity"
   ],
   "converge-ai": [
-    "productivity"
-  ],
-  "cvbeeai": [
     "productivity"
   ],
   "dart": [
@@ -2363,9 +2279,6 @@
   "plus-docs": [
     "productivity"
   ],
-  "plzai-directory": [
-    "productivity"
-  ],
   "pointer": [
     "productivity"
   ],
@@ -2453,9 +2366,6 @@
   "wave": [
     "productivity"
   ],
-  "wiseone": [
-    "productivity"
-  ],
   "wudpecker": [
     "productivity"
   ],
@@ -2477,9 +2387,6 @@
   "banana-prompts": [
     "prompts"
   ],
-  "dallelist": [
-    "prompts"
-  ],
   "diligence-check": [
     "prompts"
   ],
@@ -2499,9 +2406,6 @@
     "prompts"
   ],
   "img2prompt": [
-    "prompts"
-  ],
-  "midlearning": [
     "prompts"
   ],
   "openart": [
@@ -2591,9 +2495,6 @@
   "marketalertsai": [
     "research"
   ],
-  "merlin": [
-    "research"
-  ],
   "morphikai": [
     "research"
   ],
@@ -2678,9 +2579,6 @@
   "scribli": [
     "seo"
   ],
-  "seoaibot": [
-    "seo"
-  ],
   "seobot": [
     "seo"
   ],
@@ -2708,9 +2606,6 @@
   "bestever": [
     "social"
   ],
-  "cloutsim-influencer-simulator": [
-    "social"
-  ],
   "docsfold": [
     "social"
   ],
@@ -2718,9 +2613,6 @@
     "social"
   ],
   "instaclip": [
-    "social"
-  ],
-  "instainfluencer": [
     "social"
   ],
   "liseller": [
@@ -2945,9 +2837,6 @@
   "magic-hour": [
     "video"
   ],
-  "magic-shorts": [
-    "video"
-  ],
   "magiclight-ai": [
     "video"
   ],
@@ -2966,12 +2855,6 @@
   "neural-frames": [
     "video"
   ],
-  "noeffort": [
-    "video"
-  ],
-  "omni-ai-video-generator": [
-    "video"
-  ],
   "omni-flash-video": [
     "video"
   ],
@@ -2979,9 +2862,6 @@
     "video"
   ],
   "opusclip": [
-    "video"
-  ],
-  "phototo-video": [
     "video"
   ],
   "picloft": [
@@ -3023,9 +2903,6 @@
   "rizzle": [
     "video"
   ],
-  "scriptmagic": [
-    "video"
-  ],
   "seedance": [
     "video"
   ],
@@ -3062,9 +2939,6 @@
   "tagshop": [
     "video"
   ],
-  "tailored-labs": [
-    "video"
-  ],
   "taomate-h3": [
     "video"
   ],
@@ -3086,13 +2960,7 @@
   "veo-3-by-kie": [
     "video"
   ],
-  "veo-4": [
-    "video"
-  ],
   "veo-video": [
-    "video"
-  ],
-  "veo3bot": [
     "video"
   ],
   "vidduo-agent": [
@@ -3194,9 +3062,6 @@
   "conference-sponsor": [
     "xtras"
   ],
-  "crumb": [
-    "xtras"
-  ],
   "deepseek-v31": [
     "xtras"
   ],
@@ -3212,13 +3077,7 @@
   "fluxaicreate": [
     "xtras"
   ],
-  "freenav": [
-    "xtras"
-  ],
   "generators": [
-    "xtras"
-  ],
-  "gmapsextrator": [
     "xtras"
   ],
   "goodsfox": [
@@ -3285,9 +3144,6 @@
     "xtras"
   ],
   "palmscanner-ai": [
-    "xtras"
-  ],
-  "penny": [
     "xtras"
   ],
   "profilespider": [

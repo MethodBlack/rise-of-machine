@@ -8,14 +8,6 @@
     "slug": "banana-prompts"
   },
   {
-    "title": "Dallelist",
-    "body": "DALL-E prompt helper.",
-    "tag": "Free",
-    "url": "https://www.dallelist.com/?ref=riseofmachine.com",
-    "date-added": "2023-12-15",
-    "slug": "dallelist"
-  },
-  {
     "title": "Diligence Check",
     "body": "AI search with agent-verified citations.",
     "tag": "Free",
@@ -70,14 +62,6 @@
     "url": "https://replicate.com/methexis-inc/img2prompt/?ref=riseofmachine.com",
     "date-added": "2023-12-15",
     "slug": "img2prompt"
-  },
-  {
-    "title": "MidLearning",
-    "body": "Midjourney sref codes & prompts.",
-    "tag": "Free",
-    "url": "https://www.midlearning.com/?ref=riseofmachine.com",
-    "date-added": "2025-01-08",
-    "slug": "midlearning"
   },
   {
     "title": "OpenArt",

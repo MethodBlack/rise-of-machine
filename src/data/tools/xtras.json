@@ -112,14 +112,6 @@
     "slug": "conference-sponsor"
   },
   {
-    "title": "Crumb",
-    "body": "Food generator.",
-    "tag": "In-app purchases",
-    "url": "https://www.eatwithcrumb.com/?ref=riseofmachine.com",
-    "date-added": "2024-11-17",
-    "slug": "crumb"
-  },
-  {
     "title": "DeepSeek-V3.1",
     "body": "Our first step toward the agent era.",
     "tag": "Open-source",
@@ -160,28 +152,12 @@
     "slug": "fluxaicreate"
   },
   {
-    "title": "Freenav",
-    "body": "A free AI tool directory.",
-    "tag": "Free",
-    "url": "https://aifreenav.com/?ref=riseofmachine.com",
-    "date-added": "2025-08-06",
-    "slug": "freenav"
-  },
-  {
     "title": "Generators",
     "body": "A curated list of AI generators.",
     "tag": "Free",
     "url": "https://aigenerator.cc/?ref=riseofmachine.com",
     "date-added": "2024-10-23",
     "slug": "generators"
-  },
-  {
-    "title": "GmapsExtrator",
-    "body": "Extract Google Maps leads.",
-    "tag": "Freemium",
-    "url": "https://gmaps-extractor.com?ref=riseofmachine.com",
-    "date-added": "2026-02-14",
-    "slug": "gmapsextrator"
   },
   {
     "title": "GoodsFox",
@@ -358,14 +334,6 @@
     "url": "https://palmscannerai.com/?ref=riseofmachine.com",
     "date-added": "2026-07-31",
     "slug": "palmscanner-ai"
-  },
-  {
-    "title": "Penny",
-    "body": "Online shopping assistant.",
-    "tag": "Free",
-    "url": "https://penny.im/?ref=riseofmachine.com",
-    "date-added": "2023-12-15",
-    "slug": "penny"
   },
   {
     "title": "ProfileSpider",

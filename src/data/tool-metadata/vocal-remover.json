@@ -10,10 +10,10 @@
     "songburst",
     "raplyrics",
     "shazam",
-    "sprunki",
     "song-generator",
     "elevenlabssound-effects",
     "music-generator",
-    "suno"
+    "suno",
+    "lyrics-to-song"
   ]
 }

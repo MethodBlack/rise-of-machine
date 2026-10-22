@@ -9,11 +9,11 @@
   "related": [
     "shottoprompt",
     "goodprompts",
-    "dallelist",
     "xprompts",
-    "midlearning",
     "banana-prompts",
     "diligence-check",
-    "srefhunter"
+    "srefhunter",
+    "gpt-prompts",
+    "img2prompt"
   ]
 }

@@ -7,13 +7,13 @@
   "date-added": "2026-01-29",
   "slug": "deepseekv4dev",
   "related": [
-    "muse-spark-ai",
     "gemini",
     "grok",
     "microsoft-copilot",
     "qwen",
     "ai-agents-live",
     "ai-agents-list",
-    "chat100"
+    "chat100",
+    "deepseek"
   ]
 }

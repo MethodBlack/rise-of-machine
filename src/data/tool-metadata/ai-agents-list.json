@@ -8,12 +8,12 @@
   "slug": "ai-agents-list",
   "related": [
     "ai-agents-live",
-    "muse-spark-ai",
     "deepseekv4dev",
     "gemini",
     "grok",
     "microsoft-copilot",
     "qwen",
-    "chat100"
+    "chat100",
+    "agents-by-athena"
   ]
 }

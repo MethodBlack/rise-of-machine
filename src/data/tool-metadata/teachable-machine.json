@@ -13,7 +13,7 @@
     "sqlmate",
     "markitdown",
     "nat-checker",
-    "cursor-mcp",
-    "buildrs"
+    "create-apidev",
+    "x-note-writer-api"
   ]
 }

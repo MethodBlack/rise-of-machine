@@ -8,12 +8,12 @@
   "slug": "graficai",
   "related": [
     "image-to-image",
-    "fotol-image-generator",
-    "promptwall",
     "bulkgen-ai",
     "magnific",
     "imagine2",
     "ai-image-combiner",
-    "blur-background"
+    "blur-background",
+    "image-describer",
+    "image-text-editor"
   ]
 }

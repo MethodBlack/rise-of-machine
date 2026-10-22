@@ -8,12 +8,12 @@
   "slug": "comicsmakernet",
   "related": [
     "oc-maker-1",
-    "oc-maker",
     "thumbnail-maker",
     "meigen-ai",
     "cpages",
     "mycoloringai",
     "imgstyler",
-    "line-drawing-converter"
+    "line-drawing-converter",
+    "gpt-image-2-1"
   ]
 }

@@ -8,12 +8,12 @@
   "slug": "goodprompts",
   "related": [
     "xprompts",
-    "midlearning",
     "shottoprompt",
     "banana-prompts",
     "prompt-generator",
     "diligence-check",
     "srefhunter",
-    "dallelist"
+    "prompt-library",
+    "promptvibe"
   ]
 }
