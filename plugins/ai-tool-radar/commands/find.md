@@ -9,10 +9,10 @@ Given a described need, return the best-matching AI tools from the Rise of Machi
 
 ## Arguments
 `$ARGUMENTS` is the free-text need, optionally containing constraint words:
-- `free` — keep only tools whose `tag` indicates no cost (e.g. `Free`, `Freemium`, `Free credits`). `tag` is a pricing label only.
+- `free` — keep only tools whose `tag` indicates no cost, such as `Free`, `Freemium`, or `Free credits`. `tag` is a pricing label only.
 - `open-source` / `oss` — keep only tools whose `githubUrl` is non-null. There is **no** open-source tag, so never filter on `tag` for this.
 
-Strip recognised constraint words from the need before matching on the rest.
+Strip recognized constraint words from the need before matching on the rest.
 
 ## Steps
 1. Fetch `https://riseofmachine.com/api/v1/index.json` once for the `updated` freshness value.
@@ -20,13 +20,13 @@ Strip recognised constraint words from the need before matching on the rest.
 3. Score each tool against the need using `title`, `description`, `body`, `category` and `tag`. Prefer tools matching more of the need's key terms.
 4. Expand the candidate set using the `related` field of your top matches (each entry is a slug; resolve it against the catalog), then re-score so a related tool can surface if it fits better.
 5. Apply the `free` and/or `open-source` constraints.
-6. Pick the best 3–5 tools.
+6. Pick the best three to five tools.
 
 ## Output
 - Open with one freshness line: `Newest tool added {updated}.`
-- For each match show: **title** — `tag` (pricing; if empty, write "pricing n/a"), added `dateAdded`, a one-line description, the link `siteUrl`, and a short one-line reason it fits the need.
-- If fewer than 3 tools genuinely fit, return only those and say the catalog has nothing closer rather than padding with weak matches.
-- If a constraint removes every match, say so and show the closest unconstrained matches instead, clearly labelled.
+- For each match show: **title** — `tag` (pricing; if empty, write "pricing unavailable"), added `dateAdded`, a one-line description, the link `siteUrl`, and a short one-line reason it fits the need.
+- If fewer than three tools genuinely fit, return only those and say the catalog has nothing closer instead of adding weak matches.
+- If a constraint removes every match, say so and show the closest unconstrained matches instead, clearly labeled.
 - End with a one-line honest note that these are relevance matches from the directory, not popular or trending picks.
 
 ## Failure handling
