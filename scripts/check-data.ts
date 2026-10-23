@@ -11,6 +11,7 @@ interface ValidationIssues {
     missing_protocol: string[];
     missing_ref: string[];
     missing_slug: string[];
+    invalid_slug: string[];
     out_of_order: string[];
     invalid_structure: string[];
 }
@@ -20,6 +21,7 @@ const issues: ValidationIssues = {
     missing_protocol: [],
     missing_ref: [],
     missing_slug: [],
+    invalid_slug: [],
     out_of_order: [],
     invalid_structure: []
 };
@@ -29,6 +31,9 @@ let totalSplitTools = 0;
 
 const toolsPath = path.join(__dirname, '../src/data/tools.json');
 const splitDataDir = path.join(__dirname, '../src/data/tools');
+
+// API routes embed the slug in the path, so it must stay free of '/', '.', and traversal.
+const SLUG_RE = /^[a-z0-9-]+$/;
 
 function validateTool(tool: Tool, source: string) {
     const identifier = `${tool.title} (${source})`;
@@ -52,6 +57,8 @@ function validateTool(tool: Tool, source: string) {
 
     if (!tool.slug) {
         issues.missing_slug.push(identifier);
+    } else if (!SLUG_RE.test(tool.slug)) {
+        issues.invalid_slug.push(`${identifier} → "${tool.slug}"`);
     }
 }
 
@@ -123,6 +130,11 @@ try {
     if (issues.missing_slug.length > 0) {
         console.log("\n❌ Missing Slugs:");
         issues.missing_slug.forEach(i => console.log(`   - ${i}`));
+    }
+
+    if (issues.invalid_slug.length > 0) {
+        console.log("\n❌ Invalid Slugs (must match ^[a-z0-9-]+$):");
+        issues.invalid_slug.forEach(i => console.log(`   - ${i}`));
     }
 
     if (issues.out_of_order.length > 0) {

@@ -68,5 +68,16 @@ Agent skills for coding agents from skills.sh, grouped by topic.
 - [Testing](https://riseofmachine.com/skills/testing)
 - [Mobile](https://riseofmachine.com/skills/mobile)
 
+## API
+
+Read-only JSON API for the AI tools directory (static, CORS-enabled).
+
+- [API root](https://riseofmachine.com/api/v1/index.json)
+- [All tools (bulk)](https://riseofmachine.com/api/v1/tools-all.json)
+- [Tools (paginated)](https://riseofmachine.com/api/v1/tools.json)
+- [Categories](https://riseofmachine.com/api/v1/categories.json)
+- [OpenAPI 3.1 (JSON)](https://riseofmachine.com/api/v1/openapi.json)
+- [OpenAPI 3.1 (YAML)](https://riseofmachine.com/api/v1/openapi.yaml)
+
 
 

@@ -29,6 +29,16 @@
       ]
     },
     {
+      "anchor": "https://riseofmachine.com/api/v1",
+      "service-desc": [
+        { "href": "https://riseofmachine.com/api/v1/openapi.json", "type": "application/json", "title": "OpenAPI 3.1 description (JSON)" },
+        { "href": "https://riseofmachine.com/api/v1/openapi.yaml", "type": "application/yaml", "title": "OpenAPI 3.1 description (YAML)" }
+      ],
+      "status": [
+        { "href": "https://riseofmachine.com/api/v1/index.json", "title": "API root" }
+      ]
+    },
+    {
       "anchor": "https://riseofmachine.com/art",
       "service-doc": [{ "href": "https://riseofmachine.com/llms.txt", "type": "text/plain" }],
       "type": [{ "href": "https://schema.org/ItemList" }]

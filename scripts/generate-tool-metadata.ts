@@ -45,6 +45,7 @@ try {
 
     let totalFiles = 0;
     let totalSize = 0;
+    const publishedSlugs = new Set<string>();
 
     // Process each category and tool
     toolsData.tools.forEach((category: Category) => {
@@ -74,10 +75,22 @@ try {
             const jsonContent = JSON.stringify(toolMetadata, null, 2);
             fs.writeFileSync(outputPath, jsonContent);
 
+            publishedSlugs.add(tool.slug);
             totalFiles++;
             totalSize += jsonContent.length;
         });
     });
+
+    // Prune orphans: files for slugs no longer in tools.json (left over from past builds).
+    let pruned = 0;
+    for (const file of fs.readdirSync(outputDir)) {
+        if (!file.endsWith('.json')) continue;
+        if (!publishedSlugs.has(file.replace(/\.json$/, ''))) {
+            fs.unlinkSync(path.join(outputDir, file));
+            pruned++;
+        }
+    }
+    if (pruned > 0) console.log(`🧹 Pruned ${pruned} stale tool-metadata file(s)`);
 
     const avgSize = Math.round(totalSize / totalFiles);
     console.log(`\n✨ Successfully generated ${totalFiles} metadata files`);
