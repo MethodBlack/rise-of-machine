@@ -488,6 +488,14 @@
     "slug": "shaped"
   },
   {
+    "title": "SitePatent",
+    "body": "Product discovery directory with a free, read-only MCP server.",
+    "tag": "Freemium",
+    "url": "https://sitepatent.com/?ref=riseofmachine.com",
+    "date-added": "2026-10-23",
+    "slug": "sitepatent"
+  },
+  {
     "title": "SmythOS",
     "body": "Open source OS for AI agents. Build & deploy.",
     "tag": "Freemium",

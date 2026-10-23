@@ -49,11 +49,12 @@
     "crawl-mcp": "bun run scripts/crawl-mcp.ts",
     "crawl-skills": "bun run scripts/crawl-skills.ts",
     "clean": "rm -rf dist .astro src/data/slug-map.json src/data/tool-metadata src/data/category-index.json src/data/featured.json src/data/mcp-category-index.json src/data/skills-category-index.json public/search-index.json public/tool-descriptions.json public/mcp-index.json public/mcp-cat public/skills-index.json public/skills-cat",
-    "test": "vitest",
-    "test:run": "vitest run",
+    "test": "bun run prepare-data && vitest",
+    "test:run": "bun run prepare-data && vitest run",
     "check-data": "bun run scripts/check-data.ts",
     "check-links": "bun run scripts/check-links.ts",
     "update-metadata": "bun run scripts/update-metadata.ts",
+    "validate-openapi": "bun run scripts/validate-openapi.ts",
     "prepublishOnly": "bun run prepare-data"
   },
   "dependencies": {
@@ -69,6 +70,7 @@
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
     "@lucasmarkes/motes": "^0.3.0",
     "@new-ui/themes": "^3.2.0",
     "@testing-library/dom": "^10.4.2",
@@ -79,7 +81,8 @@
     "border-beam": "^1.4.1",
     "jsdom": "^29.1.1",
     "node-html-parser": "^9.0.5",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.11",
+    "yaml": "^2.6.0"
   },
   "repository": {
     "type": "git",
