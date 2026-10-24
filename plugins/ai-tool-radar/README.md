@@ -11,9 +11,9 @@ A Claude Code plugin that surfaces AI tools from the Rise of Machine directory t
 
 ## Commands and skills
 
-- **`/ai-tool-radar:new [days] [category]`** — Lists recently added tools, grouped by category. Accepts an optional day window and category ID filter.
-- **`/ai-tool-radar:find <need> [free] [open-source]`** — Returns the best 3 to 5 tools that match a described need, with a one-line reason for each.
-- **`tool-discovery` skill** — Claude loads this skill when you ask which AI tool to use or what tools are new, so recommendations come from the directory.
+- **`/ai-tool-radar:new [days] [category]`** lists recently added tools, grouped by category. It accepts an optional day window and category ID filter.
+- **`/ai-tool-radar:find <need> [free] [open-source]`** returns the best three to five tools that match a described need, with a one-line reason for each.
+- Claude loads the **`tool-discovery` skill** when you ask which AI tool to use or what tools are new, so recommendations come from the directory.
 
 ## Notes
 
