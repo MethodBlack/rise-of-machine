@@ -2451,14 +2451,6 @@
           "slug": "codebuddy"
         },
         {
-          "title": "CodeTrendy",
-          "body": "Curated startup and SaaS discovery directory.",
-          "tag": "Freemium",
-          "url": "https://codetrendy.com/?ref=riseofmachine.com",
-          "date-added": "2026-10-24",
-          "slug": "codetrendy"
-        },
-        {
           "title": "Cosine",
           "body": "Search & understand large codebases.",
           "tag": "Free",
@@ -8311,6 +8303,14 @@
           "tag": "Freemium",
           "date-added": "2025-09-27",
           "slug": "chinese-names-generator"
+        },
+        {
+          "title": "CodeTrendy",
+          "body": "Curated startup and SaaS discovery directory.",
+          "tag": "Freemium",
+          "url": "https://codetrendy.com/?ref=riseofmachine.com",
+          "date-added": "2026-10-24",
+          "slug": "codetrendy"
         },
         {
           "title": "Compare Heights",
