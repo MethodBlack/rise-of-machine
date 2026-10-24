@@ -25,6 +25,12 @@
       "skillPath": "skills/responsive-design/SKILL.md",
       "computedHash": "5f029db3466069b07e55696fd3831ac22175a49de25b864f596a35146264a275"
     },
+    "security-audit": {
+      "source": "cloudflare/security-audit-skill",
+      "sourceType": "github",
+      "skillPath": "skills/security-audit/SKILL.md",
+      "computedHash": "98b97aad2873b3b9a8e064007c25e7827b493ba27fda8bfbdb41dab586767973"
+    },
     "seo-aeo-best-practices": {
       "source": "sanity-io/agent-toolkit",
       "sourceType": "github",

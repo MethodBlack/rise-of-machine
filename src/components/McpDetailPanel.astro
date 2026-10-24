@@ -362,6 +362,17 @@
         }
     };
 
+    // Only http(s) may reach an href, so a `javascript:` value can't become an XSS sink.
+    const safeHref = (url: string | undefined): string => {
+        if (!url) return '';
+        try {
+            const p = new URL(url, location.origin).protocol;
+            return p === 'https:' || p === 'http:' ? url : '';
+        } catch {
+            return '';
+        }
+    };
+
     const safeDecode = (value: string) => {
         try {
             return decodeURIComponent(value);
@@ -435,7 +446,8 @@
         const site = document.getElementById('mcp-detail-site') as HTMLAnchorElement | null;
         const repo = document.getElementById('mcp-detail-repo') as HTMLAnchorElement | null;
         const linksSection = document.getElementById('mcp-detail-links-section');
-        const siteHref = d.website || (d.repo ? '' : d.url) || '';
+        const siteHref = safeHref(d.website || (d.repo ? '' : d.url) || '');
+        const repoHref = safeHref(d.repo);
         if (site) {
             if (siteHref) {
                 site.textContent = `Website (${domainOf(siteHref) || 'link'})`;
@@ -446,15 +458,15 @@
             }
         }
         if (repo) {
-            if (d.repo) {
-                repo.textContent = `Source (${domainOf(d.repo) || 'repository'})`;
-                repo.href = d.repo;
+            if (repoHref) {
+                repo.textContent = `Source (${domainOf(repoHref) || 'repository'})`;
+                repo.href = repoHref;
                 repo.hidden = false;
             } else {
                 repo.hidden = true;
             }
         }
-        if (linksSection) linksSection.hidden = !siteHref && !d.repo;
+        if (linksSection) linksSection.hidden = !siteHref && !repoHref;
 
         // Monogram (first letter of the title) stands in for the removed icon.
         const mono = document.getElementById('mcp-detail-monogram');

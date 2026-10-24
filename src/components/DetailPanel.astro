@@ -385,6 +385,17 @@ import DetailVisitButton from './DetailVisitButton.tsx';
         }
     };
 
+    // Only http(s) may reach an href, so a `javascript:` value can't become an XSS sink.
+    const safeHref = (url: string | undefined): string => {
+        if (!url) return '';
+        try {
+            const p = new URL(url, location.origin).protocol;
+            return p === 'https:' || p === 'http:' ? url : '';
+        } catch {
+            return '';
+        }
+    };
+
     // decodeURIComponent throws URIError on malformed escapes; fall back to the raw value.
     const safeDecode = (value: string) => {
         try {
@@ -532,15 +543,16 @@ import DetailVisitButton from './DetailVisitButton.tsx';
 
         const site = document.getElementById('detail-site') as HTMLAnchorElement | null;
         if (site) {
-            const dom = domainOf(d.url ?? '');
+            const href = safeHref(d.url);
+            const dom = domainOf(href);
             site.textContent = dom || 'Not provided';
-            if (d.url) site.href = d.url;
+            if (href) site.href = href;
             else site.removeAttribute('href');
-            site.classList.toggle('detail-link', !!d.url);
+            site.classList.toggle('detail-link', !!href);
         }
 
         const visit = document.getElementById('detail-visit') as HTMLAnchorElement | null;
-        if (visit) visit.href = d.url ?? link.href;
+        if (visit) visit.href = safeHref(d.url) || link.href;
 
         // Bookmark (toggle handled by the grid's delegated listener).
         const bm = document.getElementById('detail-bookmark');
