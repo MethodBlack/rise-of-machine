@@ -46,6 +46,14 @@ describe('mapServer', () => {
         expect(mapServer(entry({ description: 'A &amp; B' }))!.description).toBe('A & B');
     });
 
+    it('drops non-http(s) link URLs so they can never reach an href', () => {
+        const js = mapServer(entry({ websiteUrl: 'javascript:alert(1)', repository: { url: 'javascript:alert(2)' } }))!;
+        expect(js.websiteUrl).toBeUndefined();
+        expect(js.repository).toBeUndefined();
+        expect(js.url).toBe('/mcp/servers/io-example-thing');
+        expect(mapServer(entry({ websiteUrl: 'http://ok' }))!.websiteUrl).toBe('http://ok');
+    });
+
     it('never emits env-var values — names only', () => {
         const s = mapServer(
             entry({ packages: [{ registryType: 'npm', identifier: 'x', environmentVariables: [{ name: 'TOKEN', isRequired: true }] }] }),

@@ -186,6 +186,18 @@ function isHttpsHost(url: string): boolean {
     }
 }
 
+// Registry publishers control these URLs; only http(s) may reach an href, so a
+// `javascript:` (or other scheme) value can't become a clickable XSS sink.
+function httpUrl(url: string | undefined): string | undefined {
+    if (!url) return undefined;
+    try {
+        const p = new URL(url).protocol;
+        return p === 'https:' || p === 'http:' ? url : undefined;
+    } catch {
+        return undefined;
+    }
+}
+
 function resolveIcons(icons: RawServerManifest['icons']): { icons?: string[]; iconUrl?: string } {
     if (!icons || icons.length === 0) return {};
     const urls = icons
@@ -199,10 +211,11 @@ function resolveIcons(icons: RawServerManifest['icons']): { icons?: string[]; ic
 }
 
 function mapRepository(repo: RawRepository | undefined): McpRepository | undefined {
-    if (!repo?.url) return undefined;
-    const out: McpRepository = { url: repo.url };
-    if (repo.source) out.source = repo.source;
-    if (repo.id) out.id = repo.id;
+    const url = httpUrl(repo?.url);
+    if (!url) return undefined;
+    const out: McpRepository = { url };
+    if (repo!.source) out.source = repo!.source;
+    if (repo!.id) out.id = repo!.id;
     return out;
 }
 
@@ -220,12 +233,13 @@ export function mapServer(entry: RawEntry): McpServer | null {
     const title = s.title?.trim() || name;
     const slug = slugify(name);
     const description = decodeAndSanitize(s.description);
+    const websiteUrl = httpUrl(s.websiteUrl);
     const repository = mapRepository(s.repository);
     const remotes = mapRemotes(s.remotes);
     const packages = mapPackages(s.packages);
     const { icons, iconUrl } = resolveIcons(s.icons);
 
-    const url = s.websiteUrl || repository?.url || remotes[0]?.url || `/mcp/servers/${slug}`;
+    const url = websiteUrl || repository?.url || httpUrl(remotes[0]?.url) || `/mcp/servers/${slug}`;
     const { installCommand, installKind } = buildInstallCommand({ packages, remotes });
 
     const server: McpServer = {
@@ -245,7 +259,7 @@ export function mapServer(entry: RawEntry): McpServer | null {
         publishedAt: meta.publishedAt || '',
         updatedAt: meta.updatedAt || meta.publishedAt || '',
     };
-    if (s.websiteUrl) server.websiteUrl = s.websiteUrl;
+    if (websiteUrl) server.websiteUrl = websiteUrl;
     if (repository) server.repository = repository;
     if (icons) server.icons = icons;
     if (iconUrl) server.iconUrl = iconUrl;
