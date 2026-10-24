@@ -2603,6 +2603,14 @@
           "slug": "marscode"
         },
         {
+          "title": "MEDIAPRONET",
+          "body": "Launch and discovery directory for builders.",
+          "tag": "Freemium",
+          "url": "https://mediapronet.com/?ref=riseofmachine.com",
+          "date-added": "2026-10-24",
+          "slug": "mediapronet"
+        },
+        {
           "title": "n8n Workflow Builder",
           "body": "Build AI automations & agents.",
           "tag": "Open-source",
